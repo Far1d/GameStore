@@ -11,9 +11,9 @@ POST http://localhost:5099/games
 Content-Type: application/json
 
 {
-    "name" : "Minecraft",
+    "name" : "MinecraftMinecraftMinecraftMinecraftMinecraftMinecraftMinecraftMinecraftMinecraftMinecraftMinecraftMinecraftMinecraftMinecraft",
     "genre" : "Kids",
-    "price" : 16,
+    "price" : 101,
     "releaseDate" : "2011-08-01"
 }
 
@@ -25,7 +25,7 @@ Content-Type: application/json
 {
     "name": "Street Figther",
     "genre": "Fight",
-    "price": 30,
+    "price": 300,
     "releaseDate": "2002-01-07"
 }
 
