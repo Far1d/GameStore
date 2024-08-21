@@ -3,11 +3,11 @@ GET http://localhost:5099/games
 
 ###
 
-GET http://localhost:5099/games/1
+GET http://localhost:5099/games/2
 
 ###
 
-POST http://localhost:5099/game
+POST http://localhost:5099/games
 Content-Type: application/json
 
 {
@@ -16,3 +16,20 @@ Content-Type: application/json
     "price" : 16,
     "releaseDate" : "2011-08-01"
 }
+
+###
+
+PUT http://localhost:5099/games/4
+Content-Type: application/json
+
+{
+    "name": "Street Figther",
+    "genre": "Fight",
+    "price": 30,
+    "releaseDate": "2002-01-07"
+}
+
+###
+
+DELETE http://localhost:5099/games/2
+
